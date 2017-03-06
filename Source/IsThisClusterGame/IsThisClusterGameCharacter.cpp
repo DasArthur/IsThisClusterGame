@@ -148,3 +148,12 @@ void AIsThisClusterGameCharacter::UpdateCharacter()
 		}
 	}
 }
+
+FString AIsThisClusterGameCharacter::GetResulution(int res) {
+
+	return "";
+}
+int AIsThisClusterGameCharacter::GetResulutionLength() {
+
+	return 1;
+}
