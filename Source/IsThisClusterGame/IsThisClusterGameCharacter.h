@@ -58,8 +58,7 @@ public:
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
-	//Gets Resulution
-	UFUNCTION(BlueprintCallable,Category = Resolution) FString GetResulution(int res);
-	//Gives how many availabe resulutions are there
-	UFUNCTION(BlueprintCallable, Category = Resolution) int GetResulutionLength();
+
+	
+
 };

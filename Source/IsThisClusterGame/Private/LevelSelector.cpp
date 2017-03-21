@@ -200,7 +200,7 @@ void ALevelSelector::SpawnStar(int32 level, int32 stars) {
 			LevelStars[ArrayStartingPos + 2]->SetRelativeLocation(FVector(LevelStars[ArrayStartingPos]->GetRelativeTransform().GetLocation().X - 80, LevelStars[ArrayStartingPos]->GetRelativeTransform().GetLocation().Y, LevelStars[ArrayStartingPos]->GetRelativeTransform().GetLocation().Z));
 			LevelStars[ArrayStartingPos + 1]->SetRelativeLocation(FVector(LevelStars[ArrayStartingPos]->GetRelativeTransform().GetLocation().X, LevelStars[ArrayStartingPos]->GetRelativeTransform().GetLocation().Y, LevelStars[ArrayStartingPos]->GetRelativeTransform().GetLocation().Z));
 			LevelStars[ArrayStartingPos]->SetRelativeLocation(FVector(LevelStars[ArrayStartingPos]->GetRelativeTransform().GetLocation().X + 80, LevelStars[ArrayStartingPos]->GetRelativeTransform().GetLocation().Y, LevelStars[ArrayStartingPos]->GetRelativeTransform().GetLocation().Z));
-			GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::FromInt(ArrayStartingPos));
+		//	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::FromInt(ArrayStartingPos));
 		
 	}
 	

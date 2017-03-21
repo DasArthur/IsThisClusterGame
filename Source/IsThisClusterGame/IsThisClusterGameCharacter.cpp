@@ -5,6 +5,8 @@
 #include "IsThisClusterGameCharacter.h"
 #include "PaperFlipbookComponent.h"
 #include "Components/TextRenderComponent.h"
+#include "RHI.h"
+#include "Engine.h"
 
 
 
@@ -149,11 +151,5 @@ void AIsThisClusterGameCharacter::UpdateCharacter()
 	}
 }
 
-FString AIsThisClusterGameCharacter::GetResulution(int res) {
 
-	return "";
-}
-int AIsThisClusterGameCharacter::GetResulutionLength() {
 
-	return 1;
-}
